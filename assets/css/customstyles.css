@@ -1,0 +1,849 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+	padding-right: 0; 
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar {
+	/*border: 1px solid white;*/	
+}
+
+.navbar-brand {
+	/*margin: 0 auto !important;*/
+}
+
+.navbar-toggler {
+	margin-left: -50px;
+}
+
+#navbaricon {
+	font-size: 25px;
+	color: white;
+}
+
+.webname {
+	font-family: 'Righteous', cursive;
+	display: inline-block;
+}
+
+.fas {
+	font-size: 50px;
+}
+
+.fas2 {
+	margin-top: -50px;
+}
+
+.landingimg {
+	padding: 0px 100px 75px 100px;
+}
+
+.column1 {
+	/*border: 1px solid white;*/
+	text-align: center;
+	margin-top: 120px;
+}
+
+.column2 {
+	/*border: 1px solid white;*/
+	text-align: center;
+	margin-top: 110px;
+}
+
+.dagdtext {
+	font-size: 30px;
+}
+
+.card-img {
+	object-fit: cover;
+	object-position: 50% 37%;
+	height: 655px;
+}
+
+.logintext {
+	font-size: 20px;
+}
+
+.toupp {
+	font-size: 12px;
+}
+
+.toupplink {
+	color: white;
+	text-decoration: underline;
+}
+
+/*Login Page*/
+
+.loginbgimg {
+	height: 700px;
+}
+
+.loginimg {
+	text-align: center;
+}
+
+.loginbox {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+.logincol {
+	background-color: #2e3347;
+	border-radius: 10%;
+	opacity: 90%;
+}
+
+.logintext {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+
+.links {
+	font-size: 10px;
+}
+
+.googleicon {
+	width: 20px;
+}
+
+.fbicon {
+	width: 20px;
+}
+
+.google {
+	width: 75px;
+}
+
+.facebook {
+	width: 75px;
+}
+
+.btns {
+	margin-top: 80px;
+}
+
+.logintoupp {
+	margin-top: 40px;
+	margin-bottom: 5px;
+}
+
+.lprow {
+	background-color: #2b2761;
+}
+
+.lpnestingrow {
+	background-color: #3c3782;
+	border-radius: 40px;
+}
+
+.lpimgs {
+	object-fit: cover;
+	width:350px;
+	height: 200px;
+	border-radius: 35px;
+}
+
+.lp2coltext {
+	color: white;
+	text-align: left;
+}
+
+.lp2colmain {
+	font-size: 30px;
+}
+
+.lp2colp {
+	font-size: 15px;
+}
+
+.lp2cols {
+	/*border: 1px white solid;*/
+}
+
+.lpicons {
+	font-size: 150px;
+	background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+	background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+	background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.sideicons {
+	font-size: 75px;
+	background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+	background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+	background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+/*Registration Page*/
+
+.registrationbgimg {
+	height: 1000px;
+}
+
+.rrow {
+	/*border: 1px solid white;*/
+}
+
+.rcol {
+	/*border: 1px solid white;*/
+	background-color: #0d1f70;
+	border-radius: 10%;
+	opacity: 90%;
+}
+
+.signuptext {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+.submitbtn {
+	margin-top: -40px;
+}
+
+.btns {
+	text-align: center;
+}
+
+/*Settings*/
+
+.snavbar {
+	background-color: black;
+}
+
+.search {
+	text-align: center;
+}
+
+.searchbar {
+	border: 2px black solid;
+	border-radius: 5px;
+}
+
+.setcols {
+	border: 4px black solid;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.icons {
+	background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+	background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+	background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color:transparent;
+}
+
+.languageicon {
+	font-size: 100px;
+}
+
+.eliicon {
+	font-size: 80px;
+}
+
+.bellicon {
+	font-size: 80px;
+}
+
+.billicon {
+	font-size: 85px;
+}
+
+.rapicon {
+	font-size: 80px;
+}
+
+.helpicon {
+	font-size: 80px;
+}
+
+.setfooter {
+	background-color: black;
+	height: 75px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.settingstoupp {
+	font-size: 12px;
+}
+
+/*About Us*/
+
+.auimgs {
+	object-fit: cover;
+	width: 375px;
+	height: 375px;
+	border-radius: 30px;
+}
+
+.au2mainimg {
+	object-fit: cover;
+	width: 250px;
+	height: 350px;
+	border-radius: 25px;
+}
+
+.au2imgs {
+	object-fit: cover;
+	width: 200px;
+	height: 300px;
+	opacity: 75%;
+	border-radius: 20px;
+}
+
+.aunestingcol {
+	/*border: 1px black solid;*/
+	text-align: center;
+}
+
+.auimgsdiv {
+	display: inline-block;
+}
+
+/*Gallery*/
+
+.gallerymain {
+	background-color: #2b2761;
+}
+
+.searchcol {
+	text-align: center;
+}
+
+.searchform {
+	display: inline-block;
+}
+
+.imgscol {
+	text-align: center;
+}
+
+.galleryimgs {
+	width: 273px;
+	height: 275px;
+	object-fit: cover;
+	object-position: 50% 50%;
+	border-radius: 20px;
+	border: 1px solid white;
+}
+
+.gallerycards {
+	width: 275px;
+	margin: 15px;
+	border-radius: 20px;
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+}
+
+.galleryfooter {
+	background-color: black;
+	height: 75px;
+	text-align: center;
+}
+
+.gallerytoupp {
+	font-size: 12px;
+}
+
+/*Profile*/
+
+.accountrow {
+	background-color: #2b2761;
+}
+
+.dpcol {
+	/*border: 1px solid white;*/
+	text-align: right;
+}
+
+.accountinfo {
+	/*border: 1px solid white;*/
+}
+
+.avatarimg {
+	object-fit: cover;
+	width: 175px;
+	height: 175px;
+	border-radius: 50%;
+}
+
+.accountinfo {
+	color: white;
+}
+
+.ffno {
+	/*border: 1px solid white;*/
+	text-align: center;
+}
+
+.occupations {
+	display: block;
+}
+
+.fa-pencil-alt {
+	font-size: 20px;
+}
+
+.maincol1 {
+	background-color: #3c3782;
+}
+
+.maincol1 {
+	text-align: center;
+}
+
+.psimgmain {
+	width: 125px;
+	height: 225px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.psimg {
+	width: 50px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 5px;
+	opacity: 60%;
+}
+
+.maincol2 {
+	background-color: #221c42;
+	text-align: center;
+}
+
+.profileimgs {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: 50% 50%;
+	border-radius: 10px;
+}
+
+.oc {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	object-position: 50% 20%;
+	border-radius: 10px;
+}
+
+.pfooter {
+	background-color: black;
+	height: 75px;
+	text-align: center;
+}
+
+/*Shop*/
+
+/*#shopcontainer {
+	margin-left: -15px;
+	margin-right: -15px;
+}*/
+
+.shopbgimg {
+	object-fit: cover;
+	height: 300px;
+}
+
+.shopsearchcol {
+	/*border: 2px black solid;*/
+	text-align: center;
+	margin-bottom: 50px;
+	padding-right: 0; 
+	padding-left: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.shopcontent {
+	border: 5px #cf23c0 solid;
+	border-radius: 20px;
+}
+
+.productcol {
+	/*border: 2px black solid;*/
+	text-align: right;
+}
+
+.aboutcol {
+	/*border: 2px black solid;*/
+}
+
+.sellercol {
+	/*border: 2px black solid;*/
+	text-align: center;
+	font-size: 25px;
+}
+
+.artworks {
+	width: 200px;
+	height: 200px;
+	object-position: 50% 50%;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+.sellerimg {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.sfooter {
+	background-color: black;
+	height: 75px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+/**/
+
+@media only screen and (max-width: 992px) {
+	.card-img {
+		height: 800px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.col2content {
+		margin-top: 50px;
+	}
+
+	.registrationbgimg {
+		height: 950px;
+	}
+
+	.lp2cols {
+		text-align: center;
+	}
+
+	.lpimgs {
+		width: 190px;
+		height: 125px;
+	}
+
+	.lp2colmain {
+		font-size: 25px;
+	}
+
+	.lpicons {
+		font-size: 125px;
+	}
+
+	.auimgs {
+		width: 350px;
+	}
+
+	.au2imgs {
+		width: 175px;
+		height: 275px;
+	}
+
+	.au2mainimg {
+		width: 200px;
+		height: 325px;
+	}
+
+	.shopbgimg {
+		object-fit: cover;
+		height: 300px;
+	}
+
+	.artworks {
+		width: 150px;
+		height: 150px;
+		object-fit: cover;
+		position: 50% 50%;
+		border-radius: 10px;
+	}
+
+	.sellerimg {
+		width: 40px;
+		height: 40px;
+	}
+
+	.sellertext {
+		font-size: 20px;
+		display: inline;
+	}
+
+	.sellercol {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.column1 {
+		margin-top: 50px;
+	}
+
+	.column2 {
+		margin-top: 15px;
+	}
+
+	.fas2 {
+		margin-bottom: 35px;
+	}
+
+	.navbar {
+		background-color: black;
+	}
+
+	.rlnavbar {
+		margin: -20px;
+	}
+
+	.footer {
+		background-color: black;
+		height: 75px;
+		margin-top: 86px;
+		margin-left: -25px;
+		margin-right: -21px;
+	}
+
+	.loginbox {
+		margin-top: 85px;
+	}
+
+	.loginbtn {
+		margin-top: 15px;
+		width: 240px; 
+	}
+
+	.btns {
+		margin-bottom: 55px;
+	}
+
+	#rbtns {
+		margin-bottom: 20px;
+	}
+
+	.accepttoupp {
+		padding-right: 75px;
+	}
+
+	.loginlink {
+		padding-right: 75px;
+	}
+
+	.registrationbgimg {
+		height: 950px;
+	}
+
+	.rfooter {
+		background-color: black;
+		height: 75px;
+	}
+
+	.genderrow {
+		margin-left: -45px;
+	}
+
+	.rcol {
+		border-radius: 5%;
+	}
+
+	.auimgs {
+		width: 250px;
+	}
+
+	.au2imgs {
+		width: 150px;
+		height: 250px;
+	}
+
+	.au2mainimg {
+		width: 175px;
+		height: 300px;
+	}
+}
+
+
+@media only screen and (max-width: 576px) {
+	.dagdtext {
+		font-size: 23px;
+	}
+
+	.fas {
+		font-size: 40px;
+	}
+
+	.landingimg {
+		padding: 0px 0px 0px 0px;
+	}
+
+	.column1 {
+		margin-top: 10px;
+	}
+
+	.column2 {
+		margin-top: 10px;
+	}
+
+	.lpimgs {
+		width: 330px;
+	}
+
+	.lp2cols {
+		text-align: center;
+	}
+
+	.loginbox {
+		width: 325px;
+		margin-top: 50px;
+	}
+
+	.loginbtn {
+		width: 200px;
+	}
+
+	.logincol {
+		background-color: transparent;
+	}
+
+	.footer {
+		margin-top: 80px;
+	}
+
+	.btns {
+		margin-top: 20px;
+	}
+
+	.loginbgimg {
+		height: 725px;
+	}
+
+	.rcol {
+		background-color: transparent;
+	}
+
+	.registrationbgimg {
+		height: 975px;
+	}
+
+	#rbtns {
+		margin-top: 40px; 
+	}
+
+	.firstn {
+		margin-bottom: 10px;
+	}
+
+	.registerbtn {
+		width: 100%;
+		transform: translateY(20px);
+	}
+
+	.loginlink {
+		transform: translateY(115px);
+		padding-left: 80px;
+	}
+
+	.searchbar {
+		width: 300px;
+		height: 40px;
+	}
+
+	.icons {
+		font-size: 60px;
+		margin-right: 225px;
+	}
+
+	.settingstext {
+		font-size: 22px;
+		font-weight: bold;
+		margin-left: 120px;
+		margin-top: -45px;
+	}
+
+	.billicon {
+		margin-top: 10px;
+		font-size: 45px;
+	}
+
+	.languageicon {
+		font-size: 45px;
+		margin-top: 10px;
+	}
+
+	.raptext {
+		margin-top: -60px;
+	}
+
+	.setcols {
+		height: 100px;
+		border-radius: 15px;
+	}
+
+	.editlogininfo {
+		margin-top: -60px;
+	}
+
+	.settingstoupp {
+		font-size: 15px;
+	}
+
+	.auimgs {
+		width: 300px;
+	}
+
+	.au2imgs {
+		border-radius: 10px;
+		width: 50px;
+		height: 250px;
+	}
+
+	.au2mainimg {
+		width: 175px;
+		height: 300px;
+	}
+
+	.dpcol {
+		text-align: center;
+	}
+
+	.accountinfo {
+		text-align: center;
+	}
+
+	.productcol {
+		text-align: center;
+	}
+
+	.artworks {
+		width: 200px;
+		height: 200px;
+		object-position: 50% 50%;
+		object-fit: cover;
+		border-radius: 10px;
+	}
+
+	.submitbtn {
+		margin-top: -55px;
+	}
+}

@@ -320,6 +320,13 @@
 	border-radius: 20px;
 }
 
+.aufooter {
+	background-color: black;
+	height: 75px;
+	margin-top: -20px;
+	text-align: center;
+}
+
 .aunestingcol {
 	/*border: 1px black solid;*/
 	text-align: center;
